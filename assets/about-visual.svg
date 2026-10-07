@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5B7663" />
+      <stop offset="100%" stop-color="#475F4E" />
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.15)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="700" rx="32" fill="url(#aboutBgGrad)" />
+
+  <!-- Background Decorative Rings -->
+  <circle cx="300" cy="320" r="230" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2" />
+  <circle cx="300" cy="320" r="180" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1.5" stroke-dasharray="6 6" />
+
+  <!-- Empathetic Male Therapist Silhouette Line Art -->
+  <g transform="translate(170, 140)">
+    <!-- Head & Hair Outline -->
+    <path d="M 130, 70 C 130, 30 100, 10 65, 10 C 30, 10 0, 30 0, 70 C 0, 95 15, 120 35, 135 L 35, 160 L 95, 160 L 95, 135 C 115, 120 130, 95 130, 70 Z" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Friendly Glasses -->
+    <rect x="25" y="60" width="30" height="22" rx="6" fill="none" stroke="#FFFFFF" stroke-width="2" />
+    <rect x="75" y="60" width="30" height="22" rx="6" fill="none" stroke="#FFFFFF" stroke-width="2" />
+    <line x1="55" y1="70" x2="75" y2="70" stroke="#FFFFFF" stroke-width="2" />
+    <!-- Warm Smile -->
+    <path d="M 48, 105 Q 65, 118 82, 105" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+    
+    <!-- Professional Suit & Collar Line Art -->
+    <path d="M 35, 160 L -40, 240 L -60, 380 L 190, 380 L 170, 240 L 95, 160 Z" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Shirt & Tie Lines -->
+    <path d="M 35, 160 L 65, 240 L 95, 160" fill="none" stroke="#FFFFFF" stroke-width="2" />
+    <path d="M 60, 240 L 55, 380 M 70, 240 L 75, 380" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="4 4" />
+  </g>
+
+  <!-- Tulip Branch Vector on Left Side -->
+  <g transform="translate(60, 380)">
+    <path d="M 0, 180 C 40, 120 60, 60 40, 0" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2" />
+    <path d="M 40, 0 C 30, -20 45, -40 55, -35 C 65, -40 80, -20 70, 0 Z" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2" />
+  </g>
+
+  <!-- Bottom Details Banner -->
+  <g transform="translate(80, 560)">
+    <rect width="440" height="90" rx="20" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+    <text x="220" y="38" font-family="'Cormorant Garamond', serif" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="600">Bruno Tavares</text>
+    <text x="220" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#D0DDD3" text-anchor="middle" letter-spacing="1.5">PSICÓLOGO CLÍNICO | CRP 15/6694</text>
+  </g>
+</svg>

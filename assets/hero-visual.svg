@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5D7864" />
+      <stop offset="100%" stop-color="#4B6252" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.18)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)" />
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="600" height="700" rx="32" fill="url(#bgGrad)" />
+
+  <!-- Ambient Light Circles -->
+  <circle cx="480" cy="150" r="180" fill="url(#glowGrad)" />
+  <circle cx="120" cy="550" r="140" fill="url(#glowGrad)" />
+
+  <!-- Window Sunlight Rays -->
+  <path d="M 0,0 L 350,0 L 150,700 L 0,700 Z" fill="rgba(255,255,255,0.03)" />
+  <path d="M 120,0 L 480,0 L 280,700 L 0,700 Z" fill="rgba(255,255,255,0.02)" />
+
+  <!-- Minimalist Therapy Lounge Vector Graphics -->
+  <g transform="translate(100, 180)" filter="url(#softShadow)">
+    <!-- Cozy Armchair -->
+    <path d="M 120, 240 C 120, 150 160, 120 200, 120 C 240, 120 280, 150 280, 240 L 290, 310 C 290, 340 270, 360 240, 360 L 160, 360 C 130, 360 110, 340 110, 310 Z" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+    <path d="M 140, 230 C 140, 170 170, 150 200, 150 C 230, 150 260, 170 260, 230" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="4 4" />
+    <path d="M 110, 260 C 80, 260 70, 280 70, 310 L 70, 330 C 70, 340 80, 350 95, 350 L 120, 350" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+    <path d="M 290, 260 C 320, 260 330, 280 330, 310 L 330, 330 C 330, 340 320, 350 305, 350 L 280, 350" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+    <!-- Wooden Chair Legs -->
+    <line x1="130" y1="360" x2="110" y2="420" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+    <line x1="270" y1="360" x2="290" y2="420" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Tulip & Plant Vase -->
+    <g transform="translate(290, 160)">
+      <path d="M 30, 160 Q 40, 220 50, 220 Q 60, 220 70, 160 Z" fill="none" stroke="#FFFFFF" stroke-width="2.5" />
+      <!-- Stem & Tulips -->
+      <path d="M 50, 160 C 40, 100 20, 60 10, 30" fill="none" stroke="#FFFFFF" stroke-width="2" />
+      <path d="M 10, 30 C 0, 15 10, 0 20, 5 C 30, 0 40, 15 30, 30 Z" fill="none" stroke="#FFFFFF" stroke-width="2" />
+      
+      <path d="M 50, 160 C 60, 110 80, 70 90, 40" fill="none" stroke="#FFFFFF" stroke-width="2" />
+      <path d="M 90, 40 C 80, 25 90, 10 100, 15 C 110, 10 120, 25 110, 40 Z" fill="none" stroke="#FFFFFF" stroke-width="2" />
+      <!-- Leaves -->
+      <path d="M 50, 180 Q 20, 150 0, 170" fill="none" stroke="#FFFFFF" stroke-width="2" />
+      <path d="M 50, 175 Q 80, 140 100, 160" fill="none" stroke="#FFFFFF" stroke-width="2" />
+    </g>
+
+    <!-- Brain Line Overlay (Mind & Balance Iconography) -->
+    <g transform="translate(140, -10)">
+      <path d="M 60, 20 C 40, 0 10, 20 20, 50 C 0, 70 20, 100 40, 90 C 50, 110 80, 110 90, 90 C 110, 100 130, 70 120, 50 C 130, 20 100, 0 80, 20 Z" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-dasharray="3 3" />
+    </g>
+  </g>
+
+  <!-- Bottom Label Overlay -->
+  <text x="300" y="620" font-family="'Cormorant Garamond', serif" font-size="28" fill="#FFFFFF" text-anchor="middle" font-weight="500">Espaço Seguro &amp; Acolhedor</text>
+  <text x="300" y="650" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#D0DDD3" text-anchor="middle" letter-spacing="1">TERAPIA COGNITIVO-COMPORTAMENTAL (TCC)</text>
+</svg>
