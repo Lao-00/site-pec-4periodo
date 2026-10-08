@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // 4. WhatsApp Direct Links with Custom Pre-formatted Messages
-  const defaultWhatsAppNumber = "5515999999999"; // Format: Country + Area + Phone
+  const defaultWhatsAppNumber = "5582991246860"; // Format: Country + Area + Phone
   
   window.openWhatsApp = function (topic = "") {
     let message = "Olá, Psicólogo Bruno Tavares! Vim pelo seu site e gostaria de tirar dúvidas e consultar horários disponíveis para atendimento.";
