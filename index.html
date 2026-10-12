@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bruno Tavares | Psicólogo Clínico - CRP 15/6694 | Terapia Cognitivo-Comportamental</title>
-  <meta name="description" content="Atendimento psicológico especializado em Terapia Cognitivo-Comportamental (TCC). Tratamento para Ansiedade, Burnout, Depressão e Autoconhecimento. Atendimento Presencial e Online.">
+  <meta name="description" content="Atendimento psicológico especializado em Terapia Cognitivo-Comportamental (TCC). Tratamento para Ansiedade, Burnout, Depressão e Autoconhecimento. Atendimento Online.">
   <meta name="keywords" content="Psicólogo Bruno Tavares, CRP 15/6694, Terapia Cognitivo Comportamental, TCC, Ansiedade, Depressão, Burnout, Psicoterapia Online">
 
   <!-- Open Graph / Social Media -->
@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="css/styles.css">
 
   <!-- Favicon / Icon -->
-  <link rel="icon" type="image/jpeg" href="assets/Logo Verde.jpeg">
+  <link rel="icon" type="image/jpeg" href="assets/LogoVerde.jpeg">
 </head>
 <body>
 
@@ -31,16 +31,16 @@
   <header class="site-header" id="siteHeader">
     <div class="container header-container">
       <a href="#" class="header-logo" aria-label="Bruno Tavares Psicólogo - Página Inicial">
-        <img src="assets/Logo Verde.jpeg" alt="Logo Bruno Tavares Psicólogo CRP 15/6694" class="header-logo-img">
+        <img src="assets/LogoVerde.jpeg" alt="Logo Bruno Tavares Psicólogo CRP 15/6694" class="header-logo-img">
       </a>
 
       <!-- Desktop Navigation Menu -->
       <nav role="navigation">
         <ul class="nav-menu" id="navMenu">
-          <li><a href="#tcc" class="nav-link">O que é TCC</a></li>
-          <li><a href="#tratamentos" class="nav-link">Tratamentos</a></li>
           <li><a href="#sobre-mim" class="nav-link">Sobre Mim</a></li>
-          <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+          <li><a href="#tcc" class="nav-link">O que é TCC</a></li>
+          <li><a href="#como-funciona" class="nav-link">Como Funciona</a></li>
+          <li><a href="#tratamentos" class="nav-link">Tratamentos</a></li>
           <li><a href="#faq" class="nav-link">FAQ</a></li>
         </ul>
       </nav>
@@ -59,26 +59,18 @@
     </div>
   </header>
 
-  <!-- ==========================================
+<!-- ==========================================
        2. SEÇÃO HERO (PRINCIPAL)
        ========================================== -->
-  <section class="hero-section" id="hero">
+  <section class="hero-section" id="hero" style="border-bottom: 1px solid var(--border-light);">
     <div class="container hero-grid">
       <div class="hero-content fade-in-up">
-        <div class="hero-status-badge">
-          <span class="status-dot"></span>
-          <span>Horários disponíveis para esta semana</span>
-        </div>
 
-        <h1 class="hero-title">
-          Entenda o que você sente e reescreva sua trajetória com <span class="hero-title-highlight">equilíbrio e acolhimento.</span>
+        <h1 class="hero-title" style="font-size: 2.8rem; line-height: 1.3;">
+          Psicoterapia para te ajudar a compreender o que você sente e construir novas possibilidades, em um espaço de acolhimento, escuta e construção conjunta.
         </h1>
 
-        <p class="hero-subtitle">
-          Atendimento psicológico especializado fundamentado na Terapia Cognitivo-Comportamental (TCC). Estratégias práticas e científicas para superar a ansiedade, o estresse e retomar a leveza no seu dia a dia.
-        </p>
-
-        <div class="hero-actions">
+        <div class="hero-actions" style="margin-top: 2rem;">
           <button onclick="openWhatsApp()" class="btn btn-primary btn-icon-right">
             <span>Agendar Consulta via WhatsApp</span>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
@@ -92,7 +84,7 @@
         <div class="hero-guarantee">
           <div class="guarantee-item">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-            <span>Atendimento Online &amp; Presencial</span>
+            <span>Atendimento Online</span>
           </div>
           <div class="guarantee-item">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
@@ -108,13 +100,9 @@
       <!-- Hero Visual Card -->
       <div class="hero-card-frame fade-in-up">
         <div class="hero-image-wrapper">
-          <img src="assets/hero-visual.svg" alt="Ambiente Acolhedor de Terapia Psicologia" class="hero-bg-graphic">
+          <img src="assets/FotoHero.jpeg" alt="Ambiente Acolhedor de Terapia Psicologia" class="hero-bg-graphic">
           <div class="hero-floating-badge">
-            <div class="badge-avatar-group">
-              <div class="badge-avatar">★</div>
-              <div class="badge-avatar">BT</div>
-              <div class="badge-avatar">99%</div>
-            </div>
+            
             <div>
               <div class="badge-text-bold">Espaço Humanizado</div>
               <div class="badge-text-sub">Acolhimento individualizado sem julgamentos</div>
@@ -126,209 +114,15 @@
   </section>
 
   <!-- ==========================================
-       3. GRADE DE TRATAMENTOS (ESPECIALIDADES)
+       3. SOBRE MIM
        ========================================== -->
-  <section class="section-padding treatments-section" id="tratamentos">
-    <div class="container">
-      <div class="section-header fade-in-up">
-        <div class="section-tag">Áreas de Atuação</div>
-        <h2 class="section-title">Tratamentos &amp; Cuidados Especializados</h2>
-        <p class="section-subtitle">
-          Abordagem focada em resultados práticos e transformações reais para as suas principais demandas emocionais e comportamentais.
-        </p>
-      </div>
-
-      <div class="treatments-grid">
-
-        <!-- Card 1: Ansiedade & Pânico -->
-        <div class="treatment-card fade-in-up">
-          <div class="treatment-icon-box">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 14a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"></path><path d="M12 6v2"></path><path d="M12 16v2"></path></svg>
-          </div>
-          <span class="treatment-benefit-tag">Controle Emocional</span>
-          <h3 class="treatment-title">Ansiedade &amp; Síndrome do Pânico</h3>
-          <p class="treatment-desc">
-            Desaceleração do fluxo constante de pensamentos acelerados, manejo prático de crises de pânico e recuperação da serenidade e segurança nas tarefas diárias.
-          </p>
-          <a href="javascript:void(0)" onclick="openWhatsApp('Ansiedade e Síndrome do Pânico')" class="treatment-link">
-            <span>Saber como a TCC trata isso</span>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-          </a>
-        </div>
-
-        <!-- Card 2: Burnout -->
-        <div class="treatment-card fade-in-up">
-          <div class="treatment-icon-box">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
-          </div>
-          <span class="treatment-benefit-tag">Saúde no Trabalho</span>
-          <h3 class="treatment-title">Burnout &amp; Estresse Profissional</h3>
-          <p class="treatment-desc">
-            Identificação detalhada dos gatilhos de exaustão mental, estabelecimento de limites saudáveis na rotina profissional e estratégias de descompressão diária.
-          </p>
-          <a href="javascript:void(0)" onclick="openWhatsApp('Burnout e Estresse Profissional')" class="treatment-link">
-            <span>Saber como a TCC trata isso</span>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-          </a>
-        </div>
-
-        <!-- Card 3: Depressão -->
-        <div class="treatment-card fade-in-up">
-          <div class="treatment-icon-box">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
-          </div>
-          <span class="treatment-benefit-tag">Reativação da Vitalidade</span>
-          <h3 class="treatment-title">Depressão &amp; Desmotivação</h3>
-          <p class="treatment-desc">
-            Reestruturação gradativa de crenças limitantes e pensamentos desqualificadores, resgatando a energia, a motivação e o significado pessoal em cada área da vida.
-          </p>
-          <a href="javascript:void(0)" onclick="openWhatsApp('Depressão e Desmotivação')" class="treatment-link">
-            <span>Saber como a TCC trata isso</span>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-          </a>
-        </div>
-
-        <!-- Card 4: Regulação Emocional -->
-        <div class="treatment-card fade-in-up">
-          <div class="treatment-icon-box">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-          </div>
-          <span class="treatment-benefit-tag">Autonomia Emocional</span>
-          <h3 class="treatment-title">Compulsões &amp; Regulação Emocional</h3>
-          <p class="treatment-desc">
-            Desenvolvimento de estratégias de regulação diante do estresse, prevenindo comportamentos compulsivos (alimentação, compras, telas) e fortalecendo o autocontrole.
-          </p>
-          <a href="javascript:void(0)" onclick="openWhatsApp('Compulsões e Regulação Emocional')" class="treatment-link">
-            <span>Saber como a TCC trata isso</span>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-          </a>
-        </div>
-
-        <!-- Card 5: Autoestima -->
-        <div class="treatment-card fade-in-up">
-          <div class="treatment-icon-box">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-          </div>
-          <span class="treatment-benefit-tag">Confiança Interna</span>
-          <h3 class="treatment-title">Autoestima &amp; Autoconhecimento</h3>
-          <p class="treatment-desc">
-            Superação da autocrítica destrutiva, ressignificação da síndrome do impostor e construção de uma autoimagem sólida, resiliente e fundamentada em valores pessoais.
-          </p>
-          <a href="javascript:void(0)" onclick="openWhatsApp('Autoestima e Autoconhecimento')" class="treatment-link">
-            <span>Saber como a TCC trata isso</span>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-          </a>
-        </div>
-
-        <!-- Card 6: Relacionamentos -->
-        <div class="treatment-card fade-in-up">
-          <div class="treatment-icon-box">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-          </div>
-          <span class="treatment-benefit-tag">Comunicação Assertiva</span>
-          <h3 class="treatment-title">Relacionamentos &amp; Habilidades Sociais</h3>
-          <p class="treatment-desc">
-            Aprimoramento do diálogo e da inteligência interpessoal, aprendendo a dizer não sem culpa, definir limites claros e manter relacionamentos equilibrados e saudáveis.
-          </p>
-          <a href="javascript:void(0)" onclick="openWhatsApp('Relacionamentos e Habilidades Sociais')" class="treatment-link">
-            <span>Saber como a TCC trata isso</span>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-          </a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ==========================================
-       4. SEÇÃO EDUCACIONAL ("O QUE É A TCC?")
-       ========================================== -->
-  <section class="section-padding tcc-section" id="tcc">
-    <div class="container">
-      <div class="tcc-box fade-in-up">
-        
-        <div class="tcc-intro-grid">
-          <div>
-            <div class="section-tag">Abordagem Prática &amp; Científica</div>
-            <h2 class="tcc-headline">O que é a Terapia Cognitivo-Comportamental?</h2>
-          </div>
-          <div>
-            <p class="tcc-text">
-              A <strong>TCC (Terapia Cognitivo-Comportamental)</strong> é uma das abordagens mais recomendadas e estudadas no mundo todo. Ela fundamenta-se na premissa de que a forma como <em>interpretamos</em> as situações ao nosso redor determina como nos sentimos e como nos comportamos.
-            </p>
-          </div>
-        </div>
-
-        <!-- Infográfico dos 3 Pilares -->
-        <div class="tcc-triad-grid">
-          <div class="triad-card">
-            <div class="triad-icon">🧠</div>
-            <h3 class="triad-title">1. Pensamentos</h3>
-            <p class="triad-desc">Como você interpreta a realidade e a mensagem automática que sua mente produz sobre os fatos.</p>
-          </div>
-
-          <div class="triad-card">
-            <div class="triad-icon">💖</div>
-            <h3 class="triad-title">2. Emoções</h3>
-            <p class="triad-desc">As reações corporais e sentimentos desencadeados (ansiedade, tristeza, medo, calma ou alívio).</p>
-          </div>
-
-          <div class="triad-card">
-            <div class="triad-icon">⚡</div>
-            <h3 class="triad-title">3. Comportamentos</h3>
-            <p class="triad-desc">As escolhas e atitudes tomadas como resposta a essa combinação de pensamento e sentimento.</p>
-          </div>
-        </div>
-
-        <!-- Pilares de Diferenciação da TCC -->
-        <div class="tcc-pillars-grid">
-          <div class="pillar-item">
-            <div class="pillar-check">✓</div>
-            <div class="pillar-text">
-              <h4>Focada no Presente &amp; na Solução</h4>
-              <p>Trabalha os problemas atuais com objetivos estruturados e metas claras acordadas entre paciente e terapeuta.</p>
-            </div>
-          </div>
-
-          <div class="pillar-item">
-            <div class="pillar-check">✓</div>
-            <div class="pillar-text">
-              <h4>Ferramentas Práticas para a Vida Toda</h4>
-              <p>Você aprende técnicas comprovadas que funcionam como uma caixa de ferramentas pessoal para crises e desafios futuros.</p>
-            </div>
-          </div>
-
-          <div class="pillar-item">
-            <div class="pillar-check">✓</div>
-            <div class="pillar-text">
-              <h4>Processo Colaborativo e Transparente</h4>
-              <p>As sessões são dinâmicas: você compreende exatamente o motivo de cada etapa e exercício praticado.</p>
-            </div>
-          </div>
-
-          <div class="pillar-item">
-            <div class="pillar-check">✓</div>
-            <div class="pillar-text">
-              <h4>Comprovação Científica Internacional</h4>
-              <p>Alta taxa de resposta clínica e eficácia atestada pela Organização Mundial da Saúde para transtornos emocionais.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ==========================================
-       5. SOBRE MIM (BIOGRAFIA & EMPATIA)
-       ========================================== -->
-  <section class="section-padding about-section" id="sobre-mim">
+  <section class="section-padding about-section" id="sobre-mim" style="border-bottom: 1px solid var(--border-light);">
     <div class="container about-grid">
       
       <!-- Photo Visual -->
       <div class="about-image-card fade-in-up">
         <div class="about-image-wrapper">
-          <img src="assets/about-visual.svg" alt="Psicólogo Bruno Tavares CRP 15/6694" class="about-photo">
+          <img src="assets/FotoSobre.jpeg" alt="Psicólogo Bruno Tavares CRP 15/6694" class="about-photo">
           <div class="about-badge-crp">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
             <span>CRP 15/6694</span>
@@ -339,32 +133,21 @@
       <!-- Biography Content -->
       <div class="about-content fade-in-up">
         <div class="section-tag">Conheça o Profissional</div>
-        <h2>Olá, sou Bruno Tavares</h2>
+        <h2>Olá, eu me chamo Bruno Tavares.</h2>
         
         <div class="about-bio-text">
           <p>
-            Acredito profundamente que a psicoterapia não é apenas sobre tratar sintomas, mas sobre criar um <strong>espaço genuíno de escuta acolhedora</strong> onde você se sinta seguro para ser inteiramente quem é, sem medos ou julgamentos.
+            Sou Psicólogo Clínico (CRP 15/6694) especialista em Avaliação Psicológica e em Terapia Cognitivo-Comportamental (TCC).
           </p>
           <p>
-            Como psicólogo clínico (CRP 15/6694) especializado em Terapia Cognitivo-Comportamental, dedico minha prática a ajudar pessoas a compreenderem o funcionamento da própria mente, superarem ciclos de ansiedade e construírem uma relação mais saudável consigo mesmas.
-          </p>
-          <p>
-            Cada sessão é conduzida com rigor ético, empatia e compromisso com o seu bem-estar, respeitando a sua singularidade e o seu tempo de desenvolvimento.
+            Eu prezo por um atendimento clínico acolhedor, ético e individualizado, buscando sempre levar em consideração as particularidades de cada paciente, e também dinâmico, fazendo uso de testes psicológicos, questionários e inventários para facilitar a compreensão, diagnóstico e tratamento.
           </p>
         </div>
 
-        <div class="about-values-list">
+        <div class="about-values-list" style="margin-top: 1.5rem; margin-bottom: 2rem;">
           <div class="value-item">
             <div class="value-icon">✦</div>
-            <span>Escuta ativa, acolhedora e livre de julgamentos morais</span>
-          </div>
-          <div class="value-item">
-            <div class="value-icon">✦</div>
-            <span>Terapia individualizada adaptada às suas necessidades reais</span>
-          </div>
-          <div class="value-item">
-            <div class="value-icon">✦</div>
-            <span>Código de Ética do Conselho Federal de Psicologia (CFP)</span>
+            <span>Compromisso social com a disponibilização de vagas por valor social mediante disponibilidade na agenda.</span>
           </div>
         </div>
 
@@ -378,70 +161,219 @@
   </section>
 
   <!-- ==========================================
-       6. DEPOIMENTOS (PROVA SOCIAL)
+       4. SEÇÃO EDUCACIONAL ("O QUE É A TCC?")
        ========================================== -->
-  <section class="section-padding testimonials-section" id="depoimentos">
+  <section class="section-padding tcc-section" id="tcc">
+    <div class="container">
+      <div class="tcc-box fade-in-up">
+        
+        <div class="tcc-intro-grid" style="align-items: flex-start;">
+          
+          <!-- Coluna da Esquerda: Título + Citação -->
+          <div>
+            <div class="section-tag">Baseada em Evidências</div>
+            <h2 class="tcc-headline">O que é a Terapia Cognitivo-Comportamental?</h2>
+            
+            <div style="margin-top: 3rem; padding-left: 1.5rem; border-left: 3px solid rgba(255, 255, 255, 0.2);">
+              <p class="tcc-text" style="font-style: italic; color: var(--text-white); font-size: 1.05rem; line-height: 1.7;">
+                "Eu gosto de pensar a terapia através da Terapia Cognitivo-Comportamental como um espaço de construção conjunta, na qual eu, terapeuta, e você, paciente, trabalhamos juntos na compreensão das suas dificuldades e na construção de mudanças que façam sentido pra você, tudo de forma personalizada e individual."
+              </p>
+            </div>
+          </div>
+
+          <!-- Coluna da Direita: Texto Teórico -->
+          <div style="padding-top: 0.5rem;">
+            <p class="tcc-text">
+              A <strong>Terapia Cognitivo-Comportamental (TCC)</strong> é uma abordagem da psicologia, baseada em evidências, que parte da ideia de que nossos pensamentos, emoções e comportamentos estão relacionados e podem influenciar a forma como experienciamos diferentes situações.
+            </p>
+            <p class="tcc-text" style="margin-top: 1.5rem;">
+              Na terapia, buscamos reconhecer esses padrões e desenvolver maneiras mais funcionais de lidar com eles. Para isso, iremos compreender e trabalhar aspectos como a sua história de vida, pensamentos automáticos, crenças e estratégias de enfrentamento.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Infográfico dos 3 Pilares -->
+        <div class="tcc-triad-grid">
+          <div class="triad-card">
+            <div class="triad-icon">🧠</div>
+            <h3 class="triad-title">1. Pensamentos</h3>
+            <p class="triad-desc">Os pensamentos automáticos e as crenças que desenvolvemos ao longo da nossa história de vida.</p>
+          </div>
+
+          <div class="triad-card">
+            <div class="triad-icon">💖</div>
+            <h3 class="triad-title">2. Emoções</h3>
+            <p class="triad-desc">A maneira como os sentimentos são influenciados pela forma como experienciamos diferentes situações.</p>
+          </div>
+
+          <div class="triad-card">
+            <div class="triad-icon">⚡</div>
+            <h3 class="triad-title">3. Comportamentos</h3>
+            <p class="triad-desc">As atitudes tomadas e as estratégias de enfrentamento geradas por essa combinação.</p>
+          </div>
+        </div>
+
+        <!-- Pilares de Diferenciação da TCC -->
+        <div class="tcc-pillars-grid">
+          <div class="pillar-item">
+            <div class="pillar-check">✓</div>
+            <div class="pillar-text">
+              <h4>Espaço de Construção Conjunta</h4>
+              <p>Eu, terapeuta, e você, paciente, trabalhamos juntos na compreensão das suas dificuldades ao longo de cada sessão.</p>
+            </div>
+          </div>
+
+          <div class="pillar-item">
+            <div class="pillar-check">✓</div>
+            <div class="pillar-text">
+              <h4>Atendimento Personalizado</h4>
+              <p>Construção de mudanças que façam sentido pra você, tudo de forma totalmente personalizada e individual.</p>
+            </div>
+          </div>
+
+          <div class="pillar-item">
+            <div class="pillar-check">✓</div>
+            <div class="pillar-text">
+              <h4>Novas Estratégias</h4>
+              <p>Reconhecimento de padrões repetitivos para desenvolvermos estratégias e maneiras mais funcionais de lidar com eles.</p>
+            </div>
+          </div>
+
+          <div class="pillar-item">
+            <div class="pillar-check">✓</div>
+            <div class="pillar-text">
+              <h4>Baseada em Evidências</h4>
+              <p>Uma abordagem sólida e fundamentada cientificamente para gerar resultados consistentes na sua jornada.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       5. COMO FUNCIONA A TERAPIA
+       ========================================== -->
+  <section class="section-padding" id="como-funciona" style="background-color: rgba(0, 0, 0, 0.05); border-top: 1px solid var(--border-light); border-bottom: 1px solid var(--border-light);">
     <div class="container">
       <div class="section-header fade-in-up">
-        <div class="section-tag">Depoimentos &amp; Resultados</div>
-        <h2 class="section-title">O Impacto na Vida de Quem Já Viveu esse Processo</h2>
+        <div class="section-tag">Metodologia</div>
+        <h2 class="section-title">Como funciona a terapia?</h2>
+      </div>
+
+      <div class="fade-in-up" style="max-width: 850px; margin: 0 auto; background: var(--bg-sage-card); border: 1px solid var(--border-light); border-radius: var(--radius-lg); padding: 3.5rem 3rem; text-align: center; box-shadow: var(--shadow-md); backdrop-filter: blur(10px);">
+        
+        <p style="font-size: 1.65rem; color: var(--text-white); font-family: var(--font-heading); margin-bottom: 1.5rem; line-height: 1.5;">
+          A psicoterapia é um espaço de escuta, acolhimento, reflexão e mudança.
+        </p>
+        
+        <p style="font-size: 1.25rem; color: var(--text-muted); line-height: 1.75; margin-bottom: 1.25rem;">
+          Não é sobre eu te dar conselhos ou respostas prontas para problemas que você possa estar enfrentando, mas de construirmos, juntos, novas formas de compreender as suas experiências, emoções e maneiras de lidar com os seus desafios.
+        </p>
+        
+        <p style="font-size: 1.25rem; color: var(--text-muted); line-height: 1.75;">
+          Ao longo das sessões, vamos compreender as suas demandas, identificar padrões de pensamentos, emoções e comportamentos e desenvolver estratégias para favorecer o seu bem-estar.
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       6. SERVIÇOS OFERECIDOS
+       ========================================== -->
+  <section class="section-padding treatments-section" id="tratamentos">
+    <div class="container">
+      <div class="section-header fade-in-up">
+        <div class="section-tag">Áreas de Atuação</div>
+        <h2 class="section-title">Serviços Oferecidos</h2>
         <p class="section-subtitle">
-          Relatos de pacientes que reencontraram a serenidade e a clareza através do acompanhamento terapêutico.
+          Atendimentos focados no seu bem-estar, desenvolvimento pessoal e profissional, fundamentados na ciência e na escuta acolhedora.
         </p>
       </div>
 
-      <!-- Rating Banner -->
-      <div class="testimonials-rating-bar fade-in-up">
-        <svg class="google-icon-svg" viewBox="0 0 24 24">
-          <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
-          <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
-          <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
-          <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
-        </svg>
-        <div class="rating-stars">★★★★★</div>
-        <div class="rating-score">5.0 / 5.0 no Google Reviews</div>
-      </div>
+      <div class="treatments-grid">
 
-      <!-- Testimonials Grid -->
-      <div class="testimonials-grid">
-
-        <div class="testimonial-card fade-in-up">
-          <p class="testimonial-quote">
-            "Cheguei ao consultório do Bruno no auge de crises intensas de ansiedade que afetavam meu trabalho. A abordagem de TCC dele me deu ferramentas práticas que uso todos os dias. Hoje me sinto no controle da minha vida novamente."
-          </p>
-          <div class="testimonial-author">
-            <div class="author-avatar">M.R.</div>
-            <div class="author-info">
-              <h4>Mariana R.</h4>
-              <p>Tratamento para Ansiedade • Atendimento Online</p>
-            </div>
+        <!-- Card 1: 5.1 Psicoterapia -->
+        <div class="treatment-card fade-in-up">
+          <div class="treatment-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 14a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"></path><path d="M12 6v2"></path><path d="M12 16v2"></path></svg>
           </div>
+          <span class="treatment-benefit-tag">Atendimento Clínico</span>
+          <h3 class="treatment-title">Psicoterapia</h3>
+          <p class="treatment-desc">
+            Acompanhamento psicológico on-line, para adolescentes e adultos, com base na Terapia Cognitivo-Comportamental, voltado à compreensão e intervenção frente à dificuldades emocionais, comportamentais e relacionais.
+          </p>
+          <a href="javascript:void(0)" onclick="openWhatsApp('Psicoterapia')" class="treatment-link">
+            <span>Saber mais sobre o serviço</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
         </div>
 
-        <div class="testimonial-card fade-in-up">
-          <p class="testimonial-quote">
-            "O acolhimento e o profissionalismo do Bruno fizeram toda a diferença. Ele me ajudou a sair de um estado profundo de exaustão e Burnout. Um psicólogo extremamente empático e ético."
-          </p>
-          <div class="testimonial-author">
-            <div class="author-avatar">C.A.</div>
-            <div class="author-info">
-              <h4>Carlos A.</h4>
-              <p>Manejo de Burnout &amp; Estresse</p>
-            </div>
+        <!-- Card 2: 5.2 Psicodiagnóstico -->
+        <div class="treatment-card fade-in-up">
+          <div class="treatment-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
           </div>
+          <span class="treatment-benefit-tag">Avaliação Psicológica</span>
+          <h3 class="treatment-title">Psicodiagnóstico</h3>
+          <p class="treatment-desc">
+            Avaliação Psicológica de tempo determinado, entre 8 a 10 sessões, com uso de testes psicológicos, para investigação e possível diagnóstico de transtornos psicológicos, como Transtorno Depressivo, Transtornos de Ansiedade, Transtornos Alimentares, Transtornos de Personalidade, etc.
+          </p>
+          <a href="javascript:void(0)" onclick="openWhatsApp('Psicodiagnóstico')" class="treatment-link">
+            <span>Saber mais sobre o serviço</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
         </div>
 
-        <div class="testimonial-card fade-in-up">
-          <p class="testimonial-quote">
-            "Fazer terapia com a TCC mudou minha forma de enxergar meus próprios pensamentos. Aprendi a identificar a autocrítica e ganhei uma autoconfiança que nunca tinha tido antes. Recomendo de olhos fechados!"
-          </p>
-          <div class="testimonial-author">
-            <div class="author-avatar">F.S.</div>
-            <div class="author-info">
-              <h4>Fernanda S.</h4>
-              <p>Autoestima &amp; Autoconhecimento</p>
-            </div>
+        <!-- Card 3: 5.3 Orientação Profissional e de Carreira -->
+        <div class="treatment-card fade-in-up">
+          <div class="treatment-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
           </div>
+          <span class="treatment-benefit-tag">Desenvolvimento de Carreira</span>
+          <h3 class="treatment-title">Orientação Profissional e de Carreira</h3>
+          <p class="treatment-desc">
+            Avaliação para quem está enfrentando dificuldades de escolha relacionadas à carreira, como escolha profissional, vestibular, mudança de curso, ingresso no mercado de trabalho ou redirecionamento profissional.
+          </p>
+          <a href="javascript:void(0)" onclick="openWhatsApp('Orientação Profissional e de Carreira')" class="treatment-link">
+            <span>Saber mais sobre o serviço</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+
+        <!-- Card 4: 5.4 Recrutamento e Seleção -->
+        <div class="treatment-card fade-in-up">
+          <div class="treatment-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <span class="treatment-benefit-tag">Consultoria Organizacional</span>
+          <h3 class="treatment-title">Recrutamento e Seleção</h3>
+          <p class="treatment-desc">
+            Serviço de consultoria voltado a empresas, que inclui atração, avaliação e escolha de candidatos alinhados à cultura da organização e aos requisitos da vaga em questão.
+          </p>
+          <a href="javascript:void(0)" onclick="openWhatsApp('Recrutamento e Seleção')" class="treatment-link">
+            <span>Saber mais sobre o serviço</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+
+        <!-- Card 5: 5.5 Supervisão em Testes Psicológicos -->
+        <div class="treatment-card fade-in-up">
+          <div class="treatment-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+          </div>
+          <span class="treatment-benefit-tag">Para Profissionais</span>
+          <h3 class="treatment-title">Supervisão em Testes Psicológicos</h3>
+          <p class="treatment-desc">
+            Orientação quanto à aplicação, correção e interpretação de testes psicológicos como, por exemplo, Palográfico, BFP, IFP-II, QUATI, EMEP, SDS, BPA, HTM e AIP.
+          </p>
+          <a href="javascript:void(0)" onclick="openWhatsApp('Supervisão em Testes Psicológicos')" class="treatment-link">
+            <span>Saber mais sobre o serviço</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
         </div>
 
       </div>
@@ -463,77 +395,122 @@
 
       <div class="faq-accordion">
 
-        <!-- FAQ Item 1 -->
+        <!-- FAQ Item 1: Primeira Sessão -->
         <div class="faq-item fade-in-up">
           <button class="faq-button" aria-expanded="false">
-            <span>Como funciona a primeira sessão de terapia?</span>
+            <span>Preciso saber exatamente o que falar na primeira sessão?</span>
             <div class="faq-icon-toggle">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </div>
           </button>
           <div class="faq-answer">
             <p>
-              A primeira sessão é um momento de acolhimento e escuta. Espaço para você compartilhar o que o trouxe à terapia, suas principais angústias e objetivos. Eu explicarei como a TCC funciona e traçaremos juntos um plano inicial, sem pressões.
+              A primeira sessão serve para que possamos entender juntos o que está acontecendo e o que fez você procurar atendimento, então, não, você não precisa chegar à terapia com tudo organizado ou saber exatamente por onde começar.
             </p>
           </div>
         </div>
 
-        <!-- FAQ Item 2 -->
+        <!-- FAQ Item 2: Duração da Sessão -->
         <div class="faq-item fade-in-up">
           <button class="faq-button" aria-expanded="false">
-            <span>Como funcionam os atendimentos online? São seguros?</span>
+            <span>Quanto tempo dura uma sessão?</span>
             <div class="faq-icon-toggle">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </div>
           </button>
           <div class="faq-answer">
             <p>
-              Sim! As sessões online ocorrem via videochamada em plataformas seguras e criptografadas, aprovadas pelo Conselho Federal de Psicologia (CFP). Têm exatamente a mesma eficácia da terapia presencial, permitindo que você realize o atendimento no conforto e privacidade do seu lar.
+              As sessões têm duração aproximada de 50 minutos.
             </p>
           </div>
         </div>
 
-        <!-- FAQ Item 3 -->
+        <!-- FAQ Item 3: Frequência das Sessões -->
         <div class="faq-item fade-in-up">
           <button class="faq-button" aria-expanded="false">
-            <span>Qual a duração e frequência das sessões?</span>
+            <span>Com que frequência acontecem as sessões?</span>
             <div class="faq-icon-toggle">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </div>
           </button>
           <div class="faq-answer">
             <p>
-              As sessões têm duração aproximada de 50 minutos e ocorrem semanalmente, o que garante a continuidade necessária para o progresso terapêutico. Conforme os avanços e alta gradativa, a frequência pode ser espaçada.
+              A frequência é definida de acordo com as necessidades de cada caso, mas, normalmente, são realizadas sessões semanais.
+            </p>
+          </div>
+        </div>
+        
+        <!-- FAQ Item 4: Valor Social -->
+        <div class="faq-item fade-in-up">
+          <button class="faq-button" aria-expanded="false">
+            <span>Você disponibiliza vagas por valor social?</span>
+            <div class="faq-icon-toggle">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Sim, compreendo a importância de tornar o cuidado com a saúde mental acessível. Por isso, destino uma quantidade limitada de horários na minha agenda para atendimentos com valor social. Entre em contato via WhatsApp para conversarmos e verificar a disponibilidade atual destas vagas.
             </p>
           </div>
         </div>
 
-        <!-- FAQ Item 4 -->
+        <!-- FAQ Item 5: Terapia Online -->
         <div class="faq-item fade-in-up">
           <button class="faq-button" aria-expanded="false">
-            <span>Você emite recibo/nota fiscal para reembolso do Plano de Saúde?</span>
+            <span>A terapia online funciona?</span>
             <div class="faq-icon-toggle">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </div>
           </button>
           <div class="faq-answer">
             <p>
-              Sim! O atendimento é particular, porém eu forneço recibos oficiais e Nota Fiscal com número do registro profissional (CRP 15/6694) para que você solicite o reembolso junto ao seu plano de saúde de acordo com o seu convênio.
+              A psicoterapia on-line apresenta resultados equivalentes aos do atendimento presencial, com algumas vantagens, como não necessitar de gastos com deslocamento, etc. Eu diria que é importante se atentar apenas a algumas questões como estar em um ambiente em que você possa falar livremente e ter uma boa conexão com a internet.
             </p>
           </div>
         </div>
 
-        <!-- FAQ Item 5 -->
+        <!-- FAQ Item 6: Tempo de Terapia -->
         <div class="faq-item fade-in-up">
           <button class="faq-button" aria-expanded="false">
-            <span>Qual a diferença entre a TCC e outras abordagens?</span>
+            <span>Quanto tempo preciso fazer terapia?</span>
             <div class="faq-icon-toggle">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </div>
           </button>
           <div class="faq-answer">
             <p>
-              A TCC é uma abordagem objetiva, estruturada e focada no presente. Em vez de apenas falar sobre o passado, nós identificamos como seus pensamentos atuais influenciam suas emoções e comportamentos, fornecendo exercícios e estratégias práticas para o seu dia a dia.
+              Não existe um período igual para todas as pessoas. A duração depende das questões trabalhadas, dos objetivos definidos e da evolução de cada processo. Eu costumo estimar o número de 12 a 24 sessões.
+            </p>
+          </div>
+        </div>
+        
+        <!-- FAQ Item 7: Sigilo Profissional -->
+        <div class="faq-item fade-in-up">
+          <button class="faq-button" aria-expanded="false">
+            <span>A terapia é sigilosa?</span>
+            <div class="faq-icon-toggle">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Sim. O atendimento psicológico é realizado seguindo todos os princípios éticos estipulados pelo Conselho Federal de Psicologia. Todas as informações faladas em terapia ficam entre a gente, as sessões não são gravadas e é importante que você esteja em um lugar reservado onde possa falar livremente.
+            </p>
+          </div>
+        </div>
+        
+        <!-- FAQ Item 8: Como Começar -->
+        <div class="faq-item fade-in-up">
+          <button class="faq-button" aria-expanded="false">
+            <span>Como faço para começar?</span>
+            <div class="faq-icon-toggle">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Você pode entrar em contato e podemos conversar sobre suas dúvidas e verificar juntos se o atendimento faz sentido para você.
             </p>
           </div>
         </div>
@@ -570,11 +547,27 @@
         <!-- Col 1: Brand & Logo -->
         <div class="footer-brand">
           <a href="#" aria-label="Página inicial Bruno Tavares Psicólogo">
-            <img src="assets/Logo Verde.jpeg" alt="Bruno Tavares Psicólogo CRP 15/6694" class="footer-logo-img">
+            <img src="assets/LogoVerde.jpeg" alt="Bruno Tavares Psicólogo CRP 15/6694" class="footer-logo-img">
           </a>
           <p class="footer-brand-desc">
             Atendimento psicológico fundamentado na ciência, com ética, empatia e compromisso com o acolhimento humano.
           </p>
+          
+          <!-- Redes Sociais -->
+          <div class="social-links">
+            <a href="https://www.instagram.com/psi.brutavares" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Bruno Tavares" class="social-icon">
+              <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="https://www.tiktok.com/@psi.brutavares" target="_blank" rel="noopener noreferrer" aria-label="TikTok de Bruno Tavares" class="social-icon">
+              <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+              </svg>
+            </a>
+          </div>
         </div>
 
         <!-- Col 2: Navigation Links -->
@@ -582,10 +575,10 @@
           <h4 class="footer-col-title">Navegação</h4>
           <ul class="footer-links">
             <li><a href="#hero">Início</a></li>
-            <li><a href="#tcc">O que é a TCC</a></li>
-            <li><a href="#tratamentos">Tratamentos</a></li>
             <li><a href="#sobre-mim">Sobre Mim</a></li>
-            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#tcc">O que é a TCC</a></li>
+            <li><a href="#como-funciona">Como Funciona</a></li>
+            <li><a href="#tratamentos">Tratamentos</a></li>
             <li><a href="#faq">Perguntas Frequentes</a></li>
           </ul>
         </div>
@@ -608,15 +601,15 @@
           <div class="footer-contact-list">
             <div class="contact-item">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
-              <span>(15) 99999-9999 (WhatsApp)</span>
+              <span>(82) 99124-6860 (WhatsApp)</span>
             </div>
             <div class="contact-item">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-              <span>contato@brunotavarespsicologo.com.br</span>
+              <span>psi.brutavares@gmail.com</span>
             </div>
             <div class="contact-item">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-              <span>Atendimento Online para todo o Brasil &amp; Presencial</span>
+              <span>Atendimento Online para todo o Brasil</span>
             </div>
             <div class="contact-item">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>

@@ -1,13 +1,13 @@
 /* ==========================================================================
    BRUNO TAVARES - PSICÓLOGO (CRP 15/6694)
-   Design System & Modern Aesthetic Stylesheet
-   Color Palette: Deep Sage Green (#48604F, #3D5344), Soft White (#F4F7F4), Crisp Accent (#FFFFFF)
+   Folha de Estilos - Sistema de Design e Estética Moderna
+   Paleta de Cores: Verde Sálvia Profundo (#48604F, #3D5344), Branco Suave (#F4F7F4), Destaque (#FFFFFF)
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Great+Vibes&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
 
 :root {
-  /* Color Palette 100% harmonized with Logo Verde.jpeg (#6a8570) */
+  /* Paleta de Cores 100% harmonizada com a Logo Verde.jpeg (#6a8570) */
   --bg-sage-dark: #6a8570;
   --bg-sage-deeper: #57705c;
   --bg-sage-darkest: #455a4a;
@@ -27,19 +27,19 @@
   --border-light: rgba(255, 255, 255, 0.22);
   --border-glow: rgba(255, 255, 255, 0.45);
   
-  /* Typography */
+  /* Tipografia */
   --font-heading: 'Cormorant Garamond', Georgia, serif;
   --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-script: 'Great Vibes', cursive;
   
-  /* Layout & Spacing */
+  /* Layout e Espaçamentos */
   --container-max: 1200px;
   --radius-sm: 8px;
   --radius-md: 16px;
   --radius-lg: 24px;
   --radius-pill: 9999px;
   
-  /* Shadows & Glassmorphism */
+  /* Sombras e Efeito Vidro (Glassmorphism) */
   --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.06);
   --shadow-md: 0 12px 32px rgba(0, 0, 0, 0.12);
   --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.18);
@@ -50,7 +50,7 @@
   --transition-normal: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* Base Resets */
+/* Resets Básicos */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -76,7 +76,7 @@ body {
   background-attachment: fixed;
 }
 
-/* Typography Utility Classes */
+/* Classes Utilitárias de Tipografia */
 h1, h2, h3, h4, .serif-text {
   font-family: var(--font-heading);
   color: var(--text-white);
@@ -109,7 +109,7 @@ img {
   padding-right: 1.5rem;
 }
 
-/* SECTION PADDING & HEADER */
+/* Espaçamento Global das Seções */
 .section-padding {
   padding-top: 5.5rem;
   padding-bottom: 5.5rem;
@@ -163,7 +163,7 @@ img {
   font-weight: 300;
 }
 
-/* BUTTONS */
+/* Botões */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -214,7 +214,7 @@ img {
 }
 
 /* ==========================================================================
-   1. FIXED HEADER
+   1. CABEÇALHO FIXO (HEADER)
    ========================================================================== */
 .site-header {
   position: fixed;
@@ -247,9 +247,9 @@ img {
 }
 
 .header-logo-img {
-  height: 52px;
-  width: 52px;
-  border-radius: 10px;
+  height: 80px;
+  width: 80px;
+  border-radius: 12px;
   object-fit: cover;
   border: 1px solid rgba(255, 255, 255, 0.25);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -369,7 +369,7 @@ img {
 }
 
 /* ==========================================================================
-   2. HERO SECTION
+   2. SEÇÃO PRINCIPAL (HERO)
    ========================================================================== */
 .hero-section {
   position: relative;
@@ -391,36 +391,6 @@ img {
     gap: 3rem;
     text-align: center;
   }
-}
-
-.hero-status-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
-  padding: 0.45rem 1.1rem;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid var(--border-light);
-  border-radius: var(--radius-pill);
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: var(--text-soft-white);
-  margin-bottom: 1.5rem;
-  backdrop-filter: blur(10px);
-}
-
-.status-dot {
-  width: 9px;
-  height: 9px;
-  background-color: #4EED94;
-  border-radius: 50%;
-  box-shadow: 0 0 10px #4EED94;
-  animation: pulse-dot 2s infinite;
-}
-
-@keyframes pulse-dot {
-  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(78, 237, 148, 0.7); }
-  70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(78, 237, 148, 0); }
-  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(78, 237, 148, 0); }
 }
 
 .hero-title {
@@ -494,7 +464,7 @@ img {
   color: #76C893;
 }
 
-/* Hero Visual Card */
+/* Cartão Visual da Seção Principal */
 .hero-card-frame {
   position: relative;
 }
@@ -530,30 +500,6 @@ img {
   gap: 1rem;
 }
 
-.badge-avatar-group {
-  display: flex;
-  align-items: center;
-}
-
-.badge-avatar {
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  border: 2px solid var(--bg-sage-deeper);
-  background-color: #5C7665;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 0.85rem;
-  color: var(--text-white);
-  margin-left: -10px;
-}
-
-.badge-avatar:first-child {
-  margin-left: 0;
-}
-
 .badge-text-bold {
   color: var(--text-white);
   font-weight: 600;
@@ -566,7 +512,7 @@ img {
 }
 
 /* ==========================================================================
-   3. SPECIALTIES & TREATMENTS GRID
+   3. GRADE DE ESPECIALIDADES E TRATAMENTOS
    ========================================================================== */
 .treatments-section {
   position: relative;
@@ -634,13 +580,13 @@ img {
 }
 
 .treatment-title {
-  font-size: 1.6rem;
+  font-size: 1.75rem; 
   margin-bottom: 0.85rem;
   line-height: 1.3;
 }
 
 .treatment-desc {
-  font-size: 0.95rem;
+  font-size: 1.1rem; 
   color: var(--text-muted);
   line-height: 1.65;
   margin-bottom: 1.5rem;
@@ -651,7 +597,7 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-weight: 600;
   color: var(--text-white);
   padding: 0.35rem 0.85rem;
@@ -665,7 +611,7 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--text-white);
   margin-top: auto;
@@ -682,7 +628,7 @@ img {
 }
 
 /* ==========================================================================
-   4. EDUCATIONAL SECTION: O QUE É A TCC?
+   4. SEÇÃO EDUCACIONAL: O QUE É A TCC?
    ========================================================================== */
 .tcc-section {
   position: relative;
@@ -729,7 +675,7 @@ img {
   line-height: 1.75;
 }
 
-/* TCC Triad Cards */
+/* Cartões da Tríade TCC */
 .tcc-triad-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -779,7 +725,7 @@ img {
   color: var(--text-muted);
 }
 
-/* TCC Pillars List */
+/* Lista de Pilares TCC */
 .tcc-pillars-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -825,7 +771,7 @@ img {
 }
 
 /* ==========================================================================
-   5. SOBRE MIM (BIOGRAPHY & CREDENTIALS)
+   5. SOBRE MIM (BIOGRAFIA E CREDENCIAIS)
    ========================================================================== */
 .about-section {
   position: relative;
@@ -877,8 +823,10 @@ img {
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  font-family: var(--font-heading);
+  font-family: var(--font-body); 
+  font-weight: 600;              
   font-size: 0.95rem;
+  
   color: var(--text-white);
   box-shadow: var(--shadow-md);
 }
@@ -934,128 +882,7 @@ img {
 }
 
 /* ==========================================================================
-   6. TESTIMONIALS (SOCIAL PROOF)
-   ========================================================================== */
-.testimonials-section {
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.08);
-  border-top: 1px solid var(--border-light);
-  border-bottom: 1px solid var(--border-light);
-}
-
-.testimonials-rating-bar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 3.5rem;
-  padding: 1rem 2rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--border-light);
-  border-radius: var(--radius-pill);
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-  backdrop-filter: blur(10px);
-}
-
-.google-icon-svg {
-  width: 24px;
-  height: 24px;
-}
-
-.rating-stars {
-  color: #FFC107;
-  font-size: 1.1rem;
-  letter-spacing: 2px;
-}
-
-.rating-score {
-  font-weight: 700;
-  color: var(--text-white);
-  font-size: 1.05rem;
-}
-
-.testimonials-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-}
-
-@media (max-width: 992px) {
-  .testimonials-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 640px) {
-  .testimonials-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-.testimonial-card {
-  background: var(--bg-sage-card);
-  border: 1px solid var(--border-light);
-  border-radius: var(--radius-md);
-  padding: 2.25rem 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  backdrop-filter: blur(10px);
-  transition: transform var(--transition-normal);
-}
-
-.testimonial-card:hover {
-  transform: translateY(-5px);
-  background: var(--bg-sage-card-hover);
-}
-
-.testimonial-quote {
-  font-size: 0.975rem;
-  color: var(--text-soft-white);
-  line-height: 1.7;
-  font-style: italic;
-  margin-bottom: 1.75rem;
-  position: relative;
-}
-
-.testimonial-author {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-}
-
-.author-avatar {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.15);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  color: var(--text-white);
-  font-size: 1rem;
-  border: 1px solid var(--border-light);
-}
-
-.author-info h4 {
-  font-size: 1.05rem;
-  font-family: var(--font-body);
-  font-weight: 600;
-  margin-bottom: 0.15rem;
-}
-
-.author-info p {
-  font-size: 0.8rem;
-  color: var(--text-dim);
-}
-
-/* ==========================================================================
-   7. FAQ SECTION (ACCORDION)
+   6. SEÇÃO DE PERGUNTAS FREQUENTES (FAQ / ACORDEÃO)
    ========================================================================== */
 .faq-section {
   position: relative;
@@ -1150,7 +977,7 @@ img {
 }
 
 /* ==========================================================================
-   8. FINAL CTA BANNER & FOOTER
+   7. BANNER FINAL DE CHAMADA PARA AÇÃO (CTA)
    ========================================================================== */
 .final-cta-section {
   position: relative;
@@ -1194,7 +1021,9 @@ img {
   margin: 0 auto 2.5rem auto;
 }
 
-/* SITE FOOTER */
+/* ==========================================================================
+   8. RODAPÉ DO SITE (FOOTER)
+   ========================================================================== */
 .site-footer {
   background-color: var(--bg-sage-darkest);
   border-top: 1px solid var(--border-light);
@@ -1259,6 +1088,8 @@ img {
 .footer-links a {
   font-size: 0.95rem;
   color: var(--text-muted);
+  display: inline-block; 
+  transition: all var(--transition-fast);
 }
 
 .footer-links a:hover {
@@ -1298,7 +1129,9 @@ img {
   color: var(--text-dim);
 }
 
-/* FLOATING WHATSAPP BUTTON */
+/* ==========================================================================
+   9. BOTÃO FLUTUANTE DO WHATSAPP
+   ========================================================================== */
 .floating-whatsapp {
   position: fixed;
   bottom: 2rem;
@@ -1344,7 +1177,9 @@ img {
   opacity: 1;
 }
 
-/* Animations */
+/* ==========================================================================
+   10. ANIMAÇÕES
+   ========================================================================== */
 .fade-in-up {
   opacity: 0;
   transform: translateY(30px);
